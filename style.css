@@ -14,24 +14,43 @@ img {
   margin: auto;
   display: block;
   border-radius: 50%;
+  height:150px;
+  width:150px;
+  object-fit: cover;
 }
 
-p {
+.profile-container {
+  background-color: white;
+  padding: 20px;
+  margin: 30px auto;
+  width: 700px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+.profile-container p {
   color:rgb(255, 128, 223);
   font-family:'Open Sans';
   text-align:center;
   font-size: 20px;
   padding: 10px;
+  margin: 10px;
+  height: 150px;
 }
 
-.profile.container a{
+.profile-container a {
   color:purple;
   text-decoration:none;
+  padding: 14px 40px;
+  border-radius: 4px;
+  background-color:rgb(255, 128, 223);
+  font-size: 15px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
-a:hover {
-color:#351037;
+.profile-container a:hover {
+color: white;
 transition: 0.4s;
+background-color: #351037;
 }
 
 ul{
@@ -46,28 +65,24 @@ li{
   font-size: 50px;
 }
 
-.profile-container {
-  background-color: white;
-  padding: 20px;
-  margin: 30px auto;
-  width: 700px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-}
 .links-container {
   background-color: white;
   padding: 20px;
   margin: 30px auto;
   width: 700px;
   text-align: center;
+  font-size: 30px;
   box-shadow: 0px 10px 30px rgb(0 0 0 10%);
 }
 
 .links-container a {
-  color:grey
+  color:#D6CFD0;
+  text-decoration: none;
+  transition: 0.4s;
 }
 
 .links-container a:hover {
-  color:#F2F2F2
+  color:#AAA4A5;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
